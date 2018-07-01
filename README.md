@@ -1,5 +1,7 @@
 # actgen
-This package will generate user activity datas toward items into file. This package will be used for me to create data processing pipeline.
+This package will generate user activity datas toward items into file. This package will be used for me to create data for data processing pipeline (batch processing).
+
+Batched Datas (this package) -> Spark (Processing) -> Cassandra (Store)
 
 flag:
 --fname=string [default: default] | Location + filename where the data to be saved
