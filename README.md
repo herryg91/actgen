@@ -9,6 +9,7 @@ flag:
 --action=string [default: atw,watch,comment] | List of Action user did
 
 Result Example
+./actgen --totalDatas=10000 --user=50 --item=1000
 
 ```
 12,76,atw
